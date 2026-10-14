@@ -1,5 +1,8 @@
 #! /bin/bash -l
 
+module load fastp
+#load HPC  
+
 fastkey \
 -i sample_R1.fastq.gz \
 -I sample.R2.fastq.gz \
